@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+html{
+    background-color: lightblue;
+  background-image: url('/images/bay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ }
+
+body{
+   background-color: lightblue;
+}
+h1{
+   margin-top: 2%;
+   margin-left: 44%;
+   margin-bottom: 2%;
+}
+
+.navbar{
+   background-color: black;
+   max-height: 160px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#image{
+   padding-left: 5%;
+}
+.navbar a {
+  background-color: black;
+  text-decoration: none;
+  font-size: 100%;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.navbar a:hover {
+  background-color: lightblue;
+  color: black;
+} 
+
+#divMainContainer{
+   background-color: lightblue;
+}
+
+.discount{
+   max-width: 20px;
+}
+
+#apply{
+   float: right;
+   margin-top: 10px;
+   margin-right: 15px;
+}

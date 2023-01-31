@@ -1,0 +1,286 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		<!-- Jquery -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<!-- Bootstrap Css --> 
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+		<!-- Bootstrap JS -->
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<!-- Alertify -->
+			<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+		
+		<!-- Font-Awesome -->
+	        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Scripts -->
+			<script type="text/javascript" src="/js/popup.js"></script>
+
+		<!-- Nav CSS -->
+			<link rel="stylesheet" href="/css/nav.css"/>
+
+		<!-- CSS Styles -->
+			<link rel="stylesheet" href="/css/Buyer/index.css"/>
+
+	    <!-- Js -->
+	    	<script type="text/javascript" src="/js/buyer.js"></script>
+
+		<title>Buyer</title>
+	</head>
+	
+	<body onload="changeCat()">
+		<!-- Nav -->
+    	<div class='navbar'>
+	
+    		<a  href ="/Buyer/index">Home</a>
+    		<a></a>
+    		<a></a>
+				<img src="/images/jknimage.png" alt="JKN" />
+    		<a></a>
+    		<a  href ="/Profile/index"> Login</a>
+    		<div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Languages
+                    </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="?lang=fr_CA">Francais</a>
+                    <a class="dropdown-item" href="?lang=en">English</a>
+                  </div>
+                </div>
+    		<a href ="/Profile/register"> Sign up</a>
+    	</div>		
+		<!-- Title of page -->
+		<h1> Catelog </h1>
+				
+		<!-- Search for products -->	
+		<div class='search'>
+			<form action='/Profile/search/' method="get">
+				<div class="input-group rounded">
+					<div class="form-outline">
+						<input type="text" id="searchbar" class="form-control" name="searchbar" placeholder="Search" />
+					</div>
+				  
+				  	<button name="action" class="btn btn-primary" id="searchIcon">
+				    	<i class="fa fa-search"></i>
+				  	</button>
+				</div>
+			</form>
+		</div>
+
+		<div class='filters'>
+			<label> Filter by Category:				<select class='form-select' name='category' id='category' onchange='changeURL(this)'>
+					<option selected> None </option>
+						
+								<option id='category' value='1'>Clothes</option>	
+								<option id='category' value='2'>Shoes</option>	
+								<option id='category' value='3'>Technology</option>	
+								<option id='category' value='4'>Book</option>				</select>
+			</label><br>
+		</div>
+
+		
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Dell Inspire Pro</h3>
+								<span class='desc'>Stay connected wherever you go with Inspiron's easy-to-use PCs. With lightweight designs and long-battery life, our laptops and 2-in-1s keep you moving.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391f89a62f77.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>new </li>
+											<li><strong>  In stock:</strong>3</li>
+											<li><strong> Price:</strong>$1999</li>
+											<li><strong>Rating:</strong>0</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Air Force One</h3>
+								<span class='desc'>Air Force 1 black trainers: iconic design with a fresh spin. Discover sleek basketball-inspired shoes in a must-have colour.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6394e4a70e080.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>new </li>
+											<li><strong>  In stock:</strong>8</li>
+											<li><strong> Price:</strong>$145</li>
+											<li><strong>Rating:</strong>0</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Harry Potter</h3>
+								<span class='desc'>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391f9d7b6caa.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>used </li>
+											<li><strong>  In stock:</strong>6</li>
+											<li><strong> Price:</strong>$5</li>
+											<li><strong>Rating:</strong>1</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Nike Tech Fleece</h3>
+								<span class='desc'>Elevate Your Look While Staying Warm, Dry And Comfortable With Nike Tech Fleece. Nike Products Designed For Performance And Every Day Wear. Gear Up At Nike.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391fa7017b94.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>used </li>
+											<li><strong>  In stock:</strong>5</li>
+											<li><strong> Price:</strong>$100</li>
+											<li><strong>Rating:</strong>0</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Kyrie 5TB</h3>
+								<span class='desc'>The Nike Men's Kyrie 5 TB Basketball Shoe gives his fast, all-angle attack a new cushioning technology that aligns with the curved shape of the outsole.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391fb43ac1f6.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>new </li>
+											<li><strong>  In stock:</strong>5</li>
+											<li><strong> Price:</strong>$239</li>
+											<li><strong>Rating:</strong>0</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Samsung Galaxy S22</h3>
+								<span class='desc'>Welcome to the epic new standard. Introducing Galaxy S22 Ultra 5G, with a built-in S Pen, Nightography camera and a battery that goes beyond all day.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391fc065edec.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>used </li>
+											<li><strong>  In stock:</strong>6</li>
+											<li><strong> Price:</strong>$1100</li>
+											<li><strong>Rating:</strong>4</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>Snapback Hat</h3>
+								<span class='desc'>Why are snapback hats so popular? They're famous for their casual ease, their breathability, and just how awesome they look on everyone!</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391fc9bbc8ce.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>new </li>
+											<li><strong>  In stock:</strong>19</li>
+											<li><strong> Price:</strong>$15</li>
+											<li><strong>Rating:</strong>12</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+					
+						<div id='container'>	
+							<div class='product-details'>					
+								<h3>The Bible</h3>
+								<span class='desc'>The Bible is a collection of religious texts or scriptures that are held to be sacred in Christianity, Judaism, Samaritanism, and many other religions.</span>
+								<br><br>
+										
+							</div>
+							
+							<div class='product-image'>
+								<img src='/images/6391fcf0577ee.png' alt=''>
+								
+									<div class='info'>
+										<h2> Details</h2>
+										
+										<ul>
+											<li><strong> Quality: </strong>used </li>
+											<li><strong>  In stock:</strong>48</li>
+											<li><strong> Price:</strong>$12</li>
+											<li><strong>Rating:</strong>0</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+						</body>
+</html>	
+
+	<!-- PopUp Acceptances -->
+		
+			 

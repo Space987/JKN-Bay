@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-06 16:32-0500\n"
+"PO-Revision-Date: 2022-12-06 16:39-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2\n"
+
+#: views/modal.php:5 views/Buyer/orderHistory.php:76
+#: views/Message/indexBuyerMes.php:57 views/Message/indexBuyerMes.php:93
+#: views/Message/indexSellerMes.php:37 views/Message/indexSellerMes.php:77
+msgid "Reply"
+msgstr "Répondre"
+
+#: views/modal.php:15
+msgid "Enter Message"
+msgstr "Entrez le message"
+
+#: views/modal.php:21
+msgid "Send"
+msgstr "Envoyer"
+
+#: views/nav.php:5 views/nav.php:27 views/nav.php:47
+#: views/Profile/register.php:18 views/Buyer/cart.php:54
+#: views/Buyer/contactSeller.php:60 views/Profile/index.php:15
+msgid "Home"
+msgstr "Maison"
+
+#: views/nav.php:10 views/Profile/index.php:23 views/Profile/index.php:31
+msgid "Login"
+msgstr "Connexion"
+
+#: views/nav.php:13 views/nav.php:35 views/nav.php:55
+msgid "Languages"
+msgstr "Langues"
+
+#: views/nav.php:21 views/Profile/register.php:77
+msgid "Sign up"
+msgstr "S’inscrire"
+
+#: views/nav.php:28 views/nav.php:49 views/Buyer/cart.php:56
+#: views/Buyer/contactSeller.php:62
+msgid "Messages"
+msgstr "Messages"
+
+#: views/nav.php:29
+msgid "New Product"
+msgstr "Nouveau produit"
+
+#: views/nav.php:31 views/nav.php:51 views/Buyer/cart.php:58
+#: views/Buyer/contactSeller.php:64
+msgid "My profile"
+msgstr "Mon profil"
+
+#: views/nav.php:32 views/nav.php:52 views/Buyer/cart.php:59
+#: views/Buyer/contactSeller.php:65
+msgid "History"
+msgstr "Histoire"
+
+#: views/nav.php:48 views/Buyer/cart.php:55 views/Buyer/contactSeller.php:61
+msgid "Cart"
+msgstr "Chariot"
+
+#: views/nav.php:53 views/Buyer/cart.php:60 views/Buyer/contactSeller.php:66
+#: views/nav.php:63
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: views/Profile/register.php:24 views/Profile/index.php:32
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#: views/Profile/register.php:26
+msgid ""
+"When you register to a new account you get a one time use discount code for "
+"20 percent off"
+msgstr ""
+"Lorsque vous vous inscrivez à un nouveau compte, vous obtenez un code de "
+"réduction à usage unique pour 20 % de réduction"
+
+#: views/Profile/register.php:29 views/Profile/edit.php:24
+#: views/Profile/index.php:25
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: views/Profile/register.php:34 views/Profile/index.php:28
+msgid "Password"
+msgstr "Mot de passe"
+
+#: views/Profile/register.php:39
+msgid "Password Confirmation"
+msgstr "Confirmation mot de passe"
+
+#: views/Profile/register.php:44 views/Profile/edit.php:27
+msgid "First Name"
+msgstr "Prénom"
+
+#: views/Profile/register.php:49 views/Profile/edit.php:30
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: views/Profile/register.php:54 views/Profile/edit.php:33
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: views/Profile/register.php:59 views/Profile/edit.php:36
+msgid "City"
+msgstr "Ville"
+
+#: views/Profile/register.php:64
+msgid "Select Account Type"
+msgstr "Sélectionnez le type de compte"
+
+#: views/Profile/register.php:65
+msgid "Buyer"
+msgstr "Acheteur"
+
+#: views/Profile/register.php:66
+msgid "Seller"
+msgstr "Vendeur"
+
+#: views/Profile/register.php:70
+msgid "Profile Picture"
+msgstr "Image de profil"
+
+#: views/Buyer/contactSeller.php:75
+msgid "Back"
+msgstr "Retour"
+
+#: views/Buyer/contactSeller.php:82 views/Buyer/contactSeller.php:88
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: views/Buyer/contactSeller.php:84
+msgid "Enter message"
+msgstr "Saisir le message"
+
+#: views/Buyer/contactSeller.php:113 views/Buyer/index.php:105
+#: views/Buyer/viewSeller.php:50 views/Product/index.php:47
+msgid "Details"
+msgstr "Détails"
+
+#: views/Buyer/contactSeller.php:116 views/Buyer/index.php:108
+#: views/Buyer/viewSeller.php:53 views/Product/index.php:49
+msgid "Quality:"
+msgstr "Qualité:"
+
+#: views/Buyer/contactSeller.php:117 views/Buyer/index.php:109
+#: views/Buyer/viewSeller.php:54 views/Product/index.php:50
+msgid "In stock:"
+msgstr "En stock:"
+
+#: views/Buyer/contactSeller.php:118 views/Buyer/index.php:110
+#: views/Buyer/viewSeller.php:55 views/Product/add.php:32
+#: views/Product/index.php:51
+msgid "Price:"
+msgstr "Prix:"
+
+#: views/Buyer/index.php:45
+msgid "Catelog"
+msgstr "Catalogue"
+
+#: views/Buyer/index.php:63 views/Product/add.php:42
+msgid "Filter by Category:"
+msgstr "Filtrer par catégorie :"
+
+#: views/Buyer/index.php:65 views/Product/add.php:44 views/Product/edit.php:86
+msgid "None"
+msgstr "Aucun"
+
+#: views/Buyer/index.php:89
+msgid "View Seller"
+msgstr "Voir le vendeur"
+
+#: views/Buyer/index.php:96 views/Buyer/viewSeller.php:41
+msgid "Add to Cart"
+msgstr "Ajouter au chariot"
+
+#: views/Buyer/orderHistory.php:16
+msgid "My Orders"
+msgstr "Mes commandes"
+
+#: views/Buyer/orderHistory.php:37
+msgid "Order:"
+msgstr "Ordre:"
+
+#: views/Buyer/orderHistory.php:43 views/Product/soldHistory.php:43
+msgid "Status:"
+msgstr "Statut:"
+
+#: views/Buyer/orderHistory.php:44
+msgid "Total:"
+msgstr "Total:"
+
+#: views/Buyer/orderHistory.php:45 views/Message/indexBuyerMes.php:82
+#: views/Message/indexSellerMes.php:62 views/Message/indexSellerMes.php:63
+#: views/Product/soldHistory.php:45
+msgid "Date:"
+msgstr "Date:"
+
+#: views/Buyer/orderHistory.php:46
+msgid "Leave rating"
+msgstr "Laisser une note"
+
+#: views/Buyer/orderHistory.php:99
+msgid "Rate"
+msgstr "Évaluer"
+
+#: views/Buyer/viewSeller.php:23
+msgid "Products"
+msgstr "Des produits"
+
+#: views/Buyer/viewSeller.php:35
+msgid "Contact Seller about product"
+msgstr "Contacter le vendeur à propos du produit"
+
+#: views/Message/indexBuyerMes.php:16 views/Message/indexSellerMes.php:17
+msgid "My Messages"
+msgstr "Mes messages"
+
+#: views/Message/indexBuyerMes.php:24
+msgid "Discount"
+msgstr "Remise"
+
+#: views/Message/indexBuyerMes.php:31
+msgid "Date and Time:"
+msgstr "Date et l'heure:"
+
+#: views/Message/indexBuyerMes.php:72 views/Message/indexSellerMes.php:53
+msgid "Product:"
+msgstr "Produit:"
+
+#: views/Message/indexBuyerMes.php:81 views/Message/indexSellerMes.php:60
+msgid "Message:"
+msgstr "Message:"
+
+#: views/Message/indexBuyerMes.php:83
+msgid "Sent from:"
+msgstr "Envoyé de:"
+
+#: views/Message/indexSellerMes.php:52
+msgid "Seller:"
+msgstr "Vendeur:"
+
+#: views/Message/indexSellerMes.php:61 views/Message/indexSellerMes.php:64
+msgid "Reply to:"
+msgstr "Répondre à:"
+
+#: views/Message/indexSellerMes.php:65
+msgid "Proudct:"
+msgstr "Produit:"
+
+#: views/Product/add.php:17
+msgid "Add your Product"
+msgstr "Ajoutez votre produit"
+
+#: views/Product/add.php:22
+msgid "Name:"
+msgstr "Nom:"
+
+#: views/Product/add.php:27
+msgid "Description:"
+msgstr "La description:"
+
+#: views/Product/add.php:37
+msgid "Quantity in Stock:"
+msgstr "La quantité en dépôt:"
+
+#: views/Product/add.php:56 views/Product/edit.php:77
+msgid "Condition"
+msgstr "Condition"
+
+#: views/Product/add.php:58 views/Product/edit.php:79
+msgid "New"
+msgstr "Nouveau"
+
+#: views/Product/add.php:60 views/Product/edit.php:81
+msgid "Used"
+msgstr "Utilisé"
+
+#: views/Product/add.php:64
+msgid "Image"
+msgstr "Image"
+
+#: views/Product/add.php:68
+msgid "Add your new Product"
+msgstr "Ajoutez votre nouveau produit"
+
+#: views/Product/edit.php:47
+msgid "Product Settings"
+msgstr "Paramètres du produit"
+
+#: views/Product/edit.php:52
+msgid "Edit Product"
+msgstr "Modifier le produit"
+
+#: views/Product/edit.php:56 views/Buyer/cart.php:72 views/Buyer/cart.php:58
+msgid "Name"
+msgstr "Nom"
+
+#: views/Product/edit.php:67
+msgid "Price"
+msgstr "Prix"
+
+#: views/Product/edit.php:72 views/Buyer/cart.php:72 views/Buyer/cart.php:58
+msgid "Quantity"
+msgstr "Quantité"
+
+#: views/Product/edit.php:84
+msgid "Category:"
+msgstr "Catégorie:"
+
+#: views/Product/edit.php:99
+msgid "Image:"
+msgstr "Image:"
+
+#: views/Product/edit.php:102
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: views/Product/index.php:15
+msgid "My Products"
+msgstr "Mes produits"
+
+#: views/Product/index.php:31
+msgid "Edit"
+msgstr "Editee"
+
+#: views/Product/index.php:37
+msgid "Delete"
+msgstr "Effacer"
+
+#: views/Product/soldHistory.php:16
+msgid "My Sold Products"
+msgstr "Mes produits"
+
+#: views/Product/soldHistory.php:37
+msgid "Order ID:"
+msgstr "Ordre:"
+
+#: views/Product/soldHistory.php:44
+msgid "Buyer:"
+msgstr "Acheteur:"
+
+#: views/Profile/edit.php:16
+msgid "Edit Profile"
+msgstr "Editee"
+
+#: views/Profile/edit.php:39
+msgid "Profile Image:"
+msgstr "Image:"
+
+#: views/Profile/edit.php:42
+msgid "Save"
+msgstr "Enregistrer"
+
+#: views/Profile/index.php:32
+msgid "Don't have an account?"
+msgstr "Sélectionnez le type de compte?"
+
+#: views/Profile/index.php:36
+msgid "Welcome to JKN Bay"
+msgstr "Bienvenue à JKN Bay"
+
+#: views/Profile/index.php:38 views/Profile/index.php:40
+msgid ""
+"The company, which caters to individual sellers and small businesses, is a "
+"market leader in e-commerce worldwide. JKN-Bay is headquartered in Montreal, "
+"Canada. Customers can participate in Web sites set up within their own "
+"country or use one of the company's international sites."
+msgstr ""
+"L'entreprise, qui s'adresse aux vendeurs individuels et aux petites "
+"entreprises, est un leader du marché du commerce électronique dans le monde "
+"entier. JKN-Bay a son siège social à Montréal, Canada. Les clients peuvent "
+"participer à des sites Web mis en place dans leur propre pays ou utiliser "
+"l'un des sites internationaux de l'entreprise."
+
+#: views/Buyer/cart.php:68 views/Buyer/cart.php:54
+msgid "My Cart"
+msgstr "Chariot"
+
+#: views/Buyer/cart.php:72 views/Buyer/cart.php:58
+msgid "Unit Price"
+msgstr "Prix"
+
+#: views/Buyer/cart.php:72 views/Buyer/cart.php:58
+msgid "Product Price"
+msgstr "Prix"
+
+#: views/Buyer/cart.php:72 views/Buyer/cart.php:58
+msgid "Actions"
+msgstr "Appliquer"
+
+#: views/Buyer/cart.php:83 views/Buyer/cart.php:69
+msgid "Sub Total"
+msgstr "Total"
+
+#: views/Buyer/cart.php:84 views/Buyer/cart.php:70
+msgid "Discount code:"
+msgstr " code de reduction:"
+
+#: views/Buyer/cart.php:87 views/Buyer/cart.php:73
+msgid "Apply"
+msgstr "Appliquer"
+
+#: views/Buyer/cart.php:90 views/Buyer/cart.php:76
+msgid "Checkout"
+msgstr "Vérifier"

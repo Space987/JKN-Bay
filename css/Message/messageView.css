@@ -1,0 +1,35 @@
+body{
+	background-color: lightblue;
+  background-image: url('/images/bay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}	
+
+h1{
+	color: white;
+}
+
+
+.title{
+	margin-top: 5%;
+	margin-left: 42%;
+}
+
+.card1{
+  border: solid 2px lightblue;
+}
+
+.itemside{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.order{
+	margin-top: 5%;
+}
+
+#blur{
+  filter: blur(4px);
+  background-color: black;
+}

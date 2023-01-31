@@ -1,0 +1,245 @@
+		<!-- Imports -->
+    		<html>
+<head>
+	<meta charset="utf-8" />
+	
+	<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- Bootstrap Css --> 
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<!-- Bootstrap JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!-- Alertify -->
+		<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+	
+	<!-- Font-Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Scripts -->
+		<script type="text/javascript" src="/js/popup.js"></script>
+
+	<!-- Nav CSS -->
+		<link rel="stylesheet" href="/css/nav.css"/>
+		<link rel="stylesheet" href="/css/Product/index.css"/>
+	<title>Seller Page</title>
+</head>
+
+<body>
+	<!-- Nav -->
+    	<div class='navbar'>
+	
+				<a class="nav-link" href ="/Product/index"> Home</a>
+		        <a class="nav-link" href ="/Message/indexSellerMes"> Messages</a>
+		        <a class="nav-link" href ="/Product/add"> New Product</a>
+				<img src="/images/jknimage.png" alt="JKN" style="max-width: 150px; max-height: 150px;"/>
+		        <a class="nav-link" href ="/Profile/edit/<?= $_SESSION["profile_id"]?"> My profile</a>
+				<a class="nav-link" href ="/Product/soldHistory">History</a>
+				<div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Languages
+                    </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="?lang=fr_CA">French</a>
+                    <a class="dropdown-item" href="?lang=en">English</a>
+                  </div>
+                </div>
+				<a class="nav-link" href ="/Profile/logout">Logout</a>
+			</div>
+	<!-- PopUp Acceptances -->
+		<script>popUpSuccess('You have been successfully logged in');</script>
+		
+
+		<h1 class="display"> My Products </h1>
+	
+		<div>
+			
+							<div id='container'>	
+								<div class='product-details'>					
+									<h3 type='name'>Dell Inspire Pro</h3>
+						 			
+									<span class='desc'>Stay connected wherever you go with Inspiron's easy-to-use PCs. With lightweight designs and long-battery life, our laptops and 2-in-1s keep you moving.</span	>
+									<br><br>
+									
+										<div class='controls'>
+												<a class='btn btn-primary' href='/Product/edit/79'>
+							   					<span class='buy'> Edit</span>
+							 				</a>
+										</div>
+
+										<div class='controls'>
+												<a class='btn btn-danger' href='/Product/delete/79'>
+							   					<span class='buy'> Delete</span>
+							 				</a>
+										</div>
+
+								</div>
+							
+								<div class='product-image'>
+									<img src='/images/6391f89a62f77.png' alt=''>
+							
+									<div class='info'>
+										<h2> Details </h2>
+										<ul>
+											<li><strong> Quality:</strong>new </li>
+											<li><strong> In stock:</strong>3</li>
+											<li><strong> Price:</strong>$1999</li>
+											<li><strong> Rating:  </strong>0</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+							<div id='container'>	
+								<div class='product-details'>					
+									<h3 type='name'>Air Force One</h3>
+						 			
+									<span class='desc'>Air Force 1 black trainers: iconic design with a fresh spin. Discover sleek basketball-inspired shoes in a must-have colour.</span	>
+									<br><br>
+									
+										<div class='controls'>
+												<a class='btn btn-primary' href='/Product/edit/80'>
+							   					<span class='buy'> Edit</span>
+							 				</a>
+										</div>
+
+										<div class='controls'>
+												<a class='btn btn-danger' href='/Product/delete/80'>
+							   					<span class='buy'> Delete</span>
+							 				</a>
+										</div>
+
+								</div>
+							
+								<div class='product-image'>
+									<img src='/images/6394e4a70e080.png' alt=''>
+							
+									<div class='info'>
+										<h2> Details </h2>
+										<ul>
+											<li><strong> Quality:</strong>new </li>
+											<li><strong> In stock:</strong>8</li>
+											<li><strong> Price:</strong>$145</li>
+											<li><strong> Rating:  </strong>0</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+							<div id='container'>	
+								<div class='product-details'>					
+									<h3 type='name'>Harry Potter</h3>
+						 			
+									<span class='desc'>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling.</span	>
+									<br><br>
+									
+										<div class='controls'>
+												<a class='btn btn-primary' href='/Product/edit/81'>
+							   					<span class='buy'> Edit</span>
+							 				</a>
+										</div>
+
+										<div class='controls'>
+												<a class='btn btn-danger' href='/Product/delete/81'>
+							   					<span class='buy'> Delete</span>
+							 				</a>
+										</div>
+
+								</div>
+							
+								<div class='product-image'>
+									<img src='/images/6391f9d7b6caa.png' alt=''>
+							
+									<div class='info'>
+										<h2> Details </h2>
+										<ul>
+											<li><strong> Quality:</strong>used </li>
+											<li><strong> In stock:</strong>6</li>
+											<li><strong> Price:</strong>$5</li>
+											<li><strong> Rating:  </strong>1</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+							<div id='container'>	
+								<div class='product-details'>					
+									<h3 type='name'>Nike Tech Fleece</h3>
+						 			
+									<span class='desc'>Elevate Your Look While Staying Warm, Dry And Comfortable With Nike Tech Fleece. Nike Products Designed For Performance And Every Day Wear. Gear Up At Nike.</span	>
+									<br><br>
+									
+										<div class='controls'>
+												<a class='btn btn-primary' href='/Product/edit/82'>
+							   					<span class='buy'> Edit</span>
+							 				</a>
+										</div>
+
+										<div class='controls'>
+												<a class='btn btn-danger' href='/Product/delete/82'>
+							   					<span class='buy'> Delete</span>
+							 				</a>
+										</div>
+
+								</div>
+							
+								<div class='product-image'>
+									<img src='/images/6391fa7017b94.png' alt=''>
+							
+									<div class='info'>
+										<h2> Details </h2>
+										<ul>
+											<li><strong> Quality:</strong>used </li>
+											<li><strong> In stock:</strong>5</li>
+											<li><strong> Price:</strong>$100</li>
+											<li><strong> Rating:  </strong>0</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+							<div id='container'>	
+								<div class='product-details'>					
+									<h3 type='name'>Jordan 1</h3>
+						 			
+									<span class='desc'>hello</span	>
+									<br><br>
+									
+										<div class='controls'>
+												<a class='btn btn-primary' href='/Product/edit/98'>
+							   					<span class='buy'> Edit</span>
+							 				</a>
+										</div>
+
+										<div class='controls'>
+												<a class='btn btn-danger' href='/Product/delete/98'>
+							   					<span class='buy'> Delete</span>
+							 				</a>
+										</div>
+
+								</div>
+							
+								<div class='product-image'>
+									<img src='/images/blank.jpg' alt=''>
+							
+									<div class='info'>
+										<h2> Details </h2>
+										<ul>
+											<li><strong> Quality:</strong>new </li>
+											<li><strong> In stock:</strong>3</li>
+											<li><strong> Price:</strong>$100</li>
+											<li><strong> Rating:  </strong>0</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+		</div>
+	</body>		
+</html>

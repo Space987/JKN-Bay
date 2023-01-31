@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+  background-image: url('/images/bay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.firstName {
+   font-size: 50px;
+   font-style
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+#nameI{
+    font-size:20px;
+    font-weight: bold;
+}
+
+#profileMenu{
+    float: left;
+    font-size: 25px;
+}
+
+.profile-button {
+    background: green;
+    box-shadow: none;
+    border: none
+
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+#container{
+    box-shadow: 0 15px 30px 1px grey;
+    background: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 1em auto;
+    height: 300px;
+    width: 500px;
+    float: left;
+    padding: 10px;
+    
+}
+
+
+.text-right{
+margin-left: 20px;
+margin-bottom: 30px;
+}
+
+.rightContact{
+     
+         margin-left: 20px;     
+                
+}
+
+.form-control{
+    		 
+    		 min-height:150px;
+  max-height:250px;
+  min-width:200%;
+  max-width:200%;
+  resize: false;
+    		
+
+}       

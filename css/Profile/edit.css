@@ -1,0 +1,25 @@
+body{
+	background-color: lightblue;
+  background-image: url('/images/bay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+h1{
+color: white;
+}
+
+.col-md-5{
+	border-radius: 5%;
+	background-color: whitesmoke;
+	margin-left: 28%;
+}
+
+.form-control{
+	margin-bottom: 4%;
+}
+
+.everything{
+	margin-bottom: 2%;
+}

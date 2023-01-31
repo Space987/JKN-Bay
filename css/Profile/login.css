@@ -1,0 +1,28 @@
+body{
+ background-color: lightblue;
+  background-image: url('/images/bay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+*{
+  color: white;
+}
+
+#imageJKN{
+  margin-right: 45%;
+}
+
+.float-container {
+    padding: 20px;
+    height: 350px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    padding-left: 10%;
+    height: 100%;
+}
